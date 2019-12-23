@@ -17,6 +17,8 @@ loan = pd.read_csv('/Users/gkalstn/Desktop/19-2/DM/prac/PBL/PBL/data.csv', thous
 #Label & feature 분리
 X_loan = loan.drop(['OUTCOME'], axis = 1)
 
+
+
 y_loan = loan['OUTCOME']
 
 #데이터 분리(Train : 0.7, Test : 0.3) 
